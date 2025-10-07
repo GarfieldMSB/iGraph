@@ -1,7 +1,7 @@
 // src/features/dashboard/layout/DashboardLayout.tsx
 import * as React from 'react';
 import { Box } from '@mui/material';
-import { Sidebar } from '../../components/Sidebar';
+import { Sidebar } from '../../../layouts/zApp/Sidebar';
 
 
 type Props = {

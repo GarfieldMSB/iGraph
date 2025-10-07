@@ -1,6 +1,6 @@
 import { Paper, Typography, Grid as Grid, Box, Stack } from '@mui/material';
 import DashboardLayout from '../dashboard/layout/DashboardLayout';
-import { ModeToggle } from '../components/Navbar/ModeTogle';
+import { ModeToggle } from '../../layouts/zApp/Navbar/ModeTogle';
 
 export default function DashboardPage() {
     return (

@@ -9,7 +9,7 @@ export const theme = createTheme({
   colorSchemes: {
     light: {
       palette: {
-        primary: { main: '#1976d2' },
+        primary: { main: '#f4f6f9' },
         secondary: { main: '#9c27b0' },
         background: { default: '#f4f6f9', paper: '#ffffff' }, // no blanco puro
         text: { primary: '#1a1c20', secondary: '#5b616b' },

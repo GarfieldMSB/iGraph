@@ -1,5 +1,9 @@
+import { ModeToggle } from "./ModeTogle"
+
 export const NavbarItem = () => {
   return (
-    <div>NavbarItem</div>
+    <div>
+      <ModeToggle />
+    </div>
   )
 }

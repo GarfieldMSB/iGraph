@@ -1,4 +1,4 @@
-import { Box, Container, Toolbar } from "@mui/material";
+import { Box, Toolbar } from "@mui/material";
 import Sidebar from "./Sidebar/Sidebar";
 import { Navbar } from "./Navbar/Navbar";
 import type { ReactNode } from "react";
@@ -24,7 +24,7 @@ export const ZApp = ({children}: zAppProps) => {
       >
         <Box component="main" sx={{ flexGrow: 1 }}>
           <Toolbar /> 
-          <Container sx={{ py: 3 }}>{children}</Container>
+          {children}
         </Box>
       </Box>
     </Box>

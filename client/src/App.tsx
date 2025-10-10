@@ -1,11 +1,12 @@
 import { ZApp } from "./layouts/zApp/ZApp"
+import { DashboardPage } from "./modules/dashboards/pages/DashboardPage"
 
 
 function App() {
 
 	return (
 		<ZApp>
-			<Dashboard />
+			<DashboardPage />
 		</ZApp>
 	)
 }
